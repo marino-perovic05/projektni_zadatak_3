@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 { 
+font-family: "MarinoPerovic", sans-serif;
+font-size: 6em;
+color: white;
+text-align: center;
+} 
+
+@font-face {
+    font-family: "MarinoPerovic";
+    src: url("video/MarinoPerovic.ttf");
+   }
+
+
+a {
+   color:black;
+   background-color: cyan;
+   padding: 5px;
+   line-height: 40px;
+   border: 1px;
+} 
+a:hover{
+   background-color: darkgray;
+ }   
+
+
+p { 
+   color:black;
+   font-size: 16px;
+   line-height: 18px;
+   width: 600px;
+   padding: 20px;
+   text-align: center;
+   background-color: lightblue;
+   width: 50%;
+   margin: 0 auto;
+   border-radius: 8px; 
+} 
+
+body {
+   background-image: url("slike/pic19.jpg");
+
+
+
+
+h2 { 
+   color: lightpink;
+   text-align: center;  
+   background-color:;
+   padding: 20px
+} 
+
+h3 { 
+   color: mediumpurple;
+   text-align: center;  
+   background-color:;
+   padding: 20px
+} 
+
+ul {  /*centriranje*/
+         padding:20px; 
+         margin-left: auto; 
+         margin-right:auto;  
+         width: 300px;
+         } 
+   li {  display:inline; /*prikaz u jednom redu*/
+         background-color:LightCoral;
+         padding:20px;
+         border: 2px solid IndianRed;
+      }
+
+
+img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%; /* prilagodba veličine ako je prevelika */
+    }
+
+ video {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    iframe {
+       display: block;
+      margin: 0 auto;
+      max-width: 100%;
+
+    }
+    
+    blockquote {
+            text-align: center;
+            font-style: italic;
+            line-height: 1.6;
+            max-width: 600px;
+            padding: 20px;
+           
+   color:white;
+   font-size: 16px;
+   line-height: 18px;
+   width: 600px;
+   padding: 20px;
+   text-align: center;
+   
+   width: 50%;
+   margin: 0 auto;
+   border-radius: 8px; 
+} 
+        }
